@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html ng-app="scotchApp">
+
+<head>
+  <!-- SCROLLS -->
+  <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" /> -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/full-slider.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/logo-nav.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/skills.css" rel="stylesheet">
+
+  <!-- SPELLS -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+  <script src="script.js"></script>
+  <!-- Script to Activate the Carousel -->
+</head>
+
+
+<!-- define angular controller -->
+<body ng-controller="mainController">
+
+
+  <!-- <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">Angular Routing Example</a>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#skills"><i class="fa fa-shield"></i> skills</a></li>
+        <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
+      </ul>
+    </div>
+  </nav> -->
+  <!-- <div class="container"> -->
+
+
+    <div class="welcomenav col-md-12">
+      <ul>
+        <li><a id="focusmeplease" class="active" href="#">COLBY MOORE</a></li>
+        <li><a href="#whoami">WHOAMI</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#contact">SOCIAL & LINKS</a></li>
+      </ul>
+    </div>
+
+
+  <!-- </div> -->
+  <div id="container">
+
+    <!-- angular templating -->
+		<!-- this is where content will be injected -->
+    <div ng-view></div>
+
+  </div>
+
+  <!-- jQuery -->
+ <script src="js/jquery.js"></script>
+
+ <!-- Bootstrap Core JavaScript -->
+ <script src="js/bootstrap.min.js"></script>
+ <script>
+   document.getElementById('focusmeplease').focus();
+ </script>
+
+
+
+</body>
+
+</html>
