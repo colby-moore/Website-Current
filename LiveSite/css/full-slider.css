@@ -42,7 +42,7 @@ body {
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
-  display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -54,9 +54,10 @@ body {
 }
 
   .fill img{
+    padding-top: 20px;
     flex-shrink: 0%;
-    min-width: 100%;
-    min-height: 100%
+    min-width: 100vh;
+    min-height: 100vh;
   }
 
 footer {

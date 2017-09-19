@@ -35,18 +35,18 @@
 	scotchApp.controller('mainController', function($scope) {
 		// create a message to display in our view
 
-		$scope.colbyFooter = 'These are some of my favorite quotes. Last updated January 2017. Please have a look around and explore the rest of my site!'
+		$scope.colbyFooter = 'Please have a look around and explore the rest of my site! Last updated 09/11/17.'
 
 	});
 
 	// create the controller and inject Angular's $scope
 	scotchApp.controller('whoamiController', function($scope) {
 		// create a message to display in our view
-		$scope.school = 'Computer science student concentrating in software development. Currently I am a senior attending school at Marist College in Poughkeepsie, New York and will be graduating in Spring 2017!';
+		$scope.school = 'Attended Endicott College freshman year and then transfered to Marist College. Graduated from Marist College as of August 2017 with a B.S. concentrating in software development.';
 		$scope.minors = 'Along with the 4 year B.S. in computer science I am also minoring in Cybersecurity, Information Systems, and Information Technology.';
 		$scope.frontEnd = 'I strive at creating simple, yet polished designs through using many different variations of design principles. There is no better way to learn than experience, and through trial and error I aim to broaden my knowledge each day.';
 		$scope.intern = 'I have held two previous summer internships working in Enterprise Technology Departments for two healthcare providers. With the combination of my professional and academic careers, I have a very broad range of knowledge to offer.'
-		$scope.whoamiFooter = 'Upon Graduating, I aspire to work for a company where I can further the extent of my knowledge through the challenges I am given.'
+		$scope.whoamiFooter = 'Graduated August 2017. I strive to further the extent of my knowledge everyday through the challenges I am given.'
 
 	});
 

@@ -4,12 +4,14 @@
 <html ng-app="scotchApp">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
   <!-- SCROLLS -->
   <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" /> -->
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
   <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -32,30 +34,49 @@
 <body ng-controller="mainController">
 
 
-  <!-- <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="/">Angular Routing Example</a>
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                  <li>
+                      <a id="focusmeplease" class="active" href="#">COLBY MOORE</a>
+                  </li>
+                  <li>
+                      <a href="#whoami">WHOAMI</a>
+                  </li>
+                  <li>
+                      <a href="#skills">SKILLS</a>
+                  </li>
+                  <li>
+                      <a href="#contact">SOCIAL & LINKS</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
       </div>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-        <li><a href="#skills"><i class="fa fa-shield"></i> skills</a></li>
-        <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
-      </ul>
-    </div>
-  </nav> -->
-  <!-- <div class="container"> -->
+      <!-- /.container -->
+  </nav>
 
 
-    <div class="welcomenav col-md-12">
+    <!-- <div class="welcomenav col-md-12">
       <ul>
         <li><a id="focusmeplease" class="active" href="#">COLBY MOORE</a></li>
         <li><a href="#whoami">WHOAMI</a></li>
         <li><a href="#skills">SKILLS</a></li>
         <li><a href="#contact">SOCIAL & LINKS</a></li>
       </ul>
-    </div>
+    </div> -->
 
 
   <!-- </div> -->
